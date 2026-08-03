@@ -28,6 +28,105 @@
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
     },
+    "compare": {
+      "tabs": {
+        "before": "Before RitePath",
+        "after": "With RitePath"
+      },
+      "before": {
+        "stat1": {
+          "headline": "7 in 10 teams",
+          "body": "say admin work crowds out time with families — every single week.",
+          "source": "(NFDA operations survey)"
+        },
+        "stat2": {
+          "headline": "95 days",
+          "body": "average lag to close the loop on vendor + compliance follow-ups.",
+          "source": "(Industry workflow study)"
+        },
+        "quote1": {
+          "quote": "We were living in inboxes and spreadsheets. Nobody had the full picture.",
+          "name": "Elena Ruiz",
+          "role": "Funeral home director"
+        },
+        "image1": {
+          "quote": "I spent nights catching up on paperwork instead of resting.",
+          "attribution": "Jordan Hale, Arrangement counselor",
+          "imageAlt": "Staff member overwhelmed by admin work"
+        },
+        "image2": {
+          "quote": "Handoffs failed whenever someone was out — families felt it.",
+          "attribution": "Priya Shah, Operations manager",
+          "imageAlt": "Manager describing broken handoffs"
+        },
+        "image3": {
+          "quote": "Compliance checks lived in three different folders. Risky.",
+          "attribution": "Marcus Lee, Multi-location owner",
+          "imageAlt": "Owner discussing compliance risk"
+        }
+      },
+      "after": {
+        "stat1": {
+          "headline": "70%",
+          "body": "less time spent chasing status updates across staff and vendors.",
+          "source": "(RitePath customer review, 2025)"
+        },
+        "stat2": {
+          "headline": "24 hours",
+          "body": "typical turnaround to sync case notes, tasks, and family follow-ups.",
+          "source": "(Platform usage data)"
+        },
+        "quote1": {
+          "quote": "Everyone sees the same case timeline. Families get clearer answers, faster.",
+          "name": "Elena Ruiz",
+          "role": "Funeral home director"
+        },
+        "image1": {
+          "quote": "Admin finally fits inside the workday — not after hours.",
+          "attribution": "Jordan Hale, Arrangement counselor",
+          "imageAlt": "Staff member working calmly with RitePath"
+        },
+        "image2": {
+          "quote": "Coverage is clear when someone is away. No more guesswork.",
+          "attribution": "Priya Shah, Operations manager",
+          "imageAlt": "Manager describing smooth handoffs"
+        },
+        "image3": {
+          "quote": "Compliance is visible in one place. Audits stopped being scary.",
+          "attribution": "Marcus Lee, Multi-location owner",
+          "imageAlt": "Owner describing simpler compliance"
+        }
+      }
+    },
+    "appShowcase": {
+      "title": "Operations finally found their app",
+      "subtitle": "4.9/5 from teams on the App Store and Play Store",
+      "notification": {
+        "title": "Case update synced",
+        "time": "9:41 AM",
+        "body": "Family follow-up scheduled for tomorrow"
+      },
+      "items": {
+        "sync": {
+          "title": "Done in the field, updated instantly",
+          "body": "Log a service, vendor task, or family note once — and every teammate sees it in real time across web and mobile.",
+          "stat": "<strong>90%</strong> of updates sync to the whole team in under a minute.",
+          "imageAlt": "Team member reviewing operations updates on a phone"
+        },
+        "partner": {
+          "title": "Your partner from intake to aftercare",
+          "body": "One workspace for case intake, scheduling, compliance docs, and aftercare — so nothing falls through the cracks.",
+          "stat": "<strong>1 platform</strong> for staff, vendors, and managers.",
+          "imageAlt": "Operations team collaborating in a modern office"
+        },
+        "details": {
+          "title": "Built for the details that matter",
+          "body": "Track forms, permissions, and location-specific workflows without spreadsheets — clarity for leaders, simplicity for the floor.",
+          "stat": "<strong>Zero</strong> spreadsheet chase for day-to-day case status.",
+          "imageAlt": "Leadership reviewing multi-location workflows"
+        }
+      }
+    },
     "scrollStack": {
       "cards": {
         "efficiency": {

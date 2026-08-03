@@ -28,6 +28,105 @@
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
     },
+    "compare": {
+      "tabs": {
+        "before": "Antes de RitePath",
+        "after": "Con RitePath"
+      },
+      "before": {
+        "stat1": {
+          "headline": "7 de cada 10 equipos",
+          "body": "dicen que la administración les quita tiempo con las familias — cada semana.",
+          "source": "(Encuesta de operaciones NFDA)"
+        },
+        "stat2": {
+          "headline": "95 días",
+          "body": "de retraso promedio para cerrar seguimientos de proveedores y cumplimiento.",
+          "source": "(Estudio de flujos de la industria)"
+        },
+        "quote1": {
+          "quote": "Vivíamos en bandejas de entrada y hojas de cálculo. Nadie tenía la imagen completa.",
+          "name": "Elena Ruiz",
+          "role": "Directora de funeraria"
+        },
+        "image1": {
+          "quote": "Pasaba las noches poniendo al día el papeleo en lugar de descansar.",
+          "attribution": "Jordan Hale, Consejero de arreglos",
+          "imageAlt": "Personal abrumado por la administración"
+        },
+        "image2": {
+          "quote": "Los traspasos fallaban cuando alguien faltaba — las familias lo notaban.",
+          "attribution": "Priya Shah, Gerente de operaciones",
+          "imageAlt": "Gerente describiendo traspasos rotos"
+        },
+        "image3": {
+          "quote": "El cumplimiento vivía en tres carpetas distintas. Riesgoso.",
+          "attribution": "Marcus Lee, Dueño multiubicación",
+          "imageAlt": "Dueño hablando del riesgo de cumplimiento"
+        }
+      },
+      "after": {
+        "stat1": {
+          "headline": "70%",
+          "body": "menos tiempo persiguiendo actualizaciones de estado entre personal y proveedores.",
+          "source": "(Reseña de clientes RitePath, 2025)"
+        },
+        "stat2": {
+          "headline": "24 horas",
+          "body": "tiempo típico para sincronizar notas, tareas y seguimientos familiares.",
+          "source": "(Datos de uso de la plataforma)"
+        },
+        "quote1": {
+          "quote": "Todos ven la misma línea de tiempo del caso. Las familias reciben respuestas más claras.",
+          "name": "Elena Ruiz",
+          "role": "Directora de funeraria"
+        },
+        "image1": {
+          "quote": "La administración por fin cabe en el día laboral — no después de horas.",
+          "attribution": "Jordan Hale, Consejero de arreglos",
+          "imageAlt": "Personal trabajando con calma en RitePath"
+        },
+        "image2": {
+          "quote": "La cobertura es clara cuando alguien falta. Se acabó la improvisación.",
+          "attribution": "Priya Shah, Gerente de operaciones",
+          "imageAlt": "Gerente describiendo traspasos fluidos"
+        },
+        "image3": {
+          "quote": "El cumplimiento está visible en un solo lugar. Las auditorías dejaron de asustar.",
+          "attribution": "Marcus Lee, Dueño multiubicación",
+          "imageAlt": "Dueño describiendo un cumplimiento más simple"
+        }
+      }
+    },
+    "appShowcase": {
+      "title": "Las operaciones por fin tienen su app",
+      "subtitle": "4.9/5 según equipos en App Store y Play Store",
+      "notification": {
+        "title": "Caso actualizado",
+        "time": "9:41 AM",
+        "body": "Seguimiento familiar programado para mañana"
+      },
+      "items": {
+        "sync": {
+          "title": "Hecho en campo, actualizado al instante",
+          "body": "Registra un servicio, tarea de proveedor o nota familiar una vez — y todo el equipo lo ve en tiempo real en web y móvil.",
+          "stat": "El <strong>90%</strong> de las actualizaciones se sincroniza con el equipo en menos de un minuto.",
+          "imageAlt": "Miembro del equipo revisando actualizaciones en el teléfono"
+        },
+        "partner": {
+          "title": "Tu socio desde el ingreso hasta el aftercare",
+          "body": "Un solo espacio para ingreso de casos, agendas, documentos de cumplimiento y aftercare — para que nada se pierda.",
+          "stat": "<strong>1 plataforma</strong> para personal, proveedores y gerentes.",
+          "imageAlt": "Equipo de operaciones colaborando en una oficina moderna"
+        },
+        "details": {
+          "title": "Hecho para los detalles que importan",
+          "body": "Sigue formularios, permisos y flujos por ubicación sin hojas de cálculo — claridad para líderes, simplicidad en el piso.",
+          "stat": "<strong>Cero</strong> persecución de hojas de cálculo para el estado diario de casos.",
+          "imageAlt": "Liderazgo revisando flujos multiubicación"
+        }
+      }
+    },
     "scrollStack": {
       "cards": {
         "efficiency": {

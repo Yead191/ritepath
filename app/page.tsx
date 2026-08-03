@@ -12,6 +12,8 @@ import { LandingSolutions } from "@/sections/LandingSolutions";
 import { LandingInsights } from "@/sections/LandingInsights";
 import { LandingImpact } from "@/sections/LandingImpact";
 import { LandingScrollStack } from "@/sections/LandingScrollStack";
+import { LandingAppShowcase } from "@/sections/LandingAppShowcase";
+import { LandingCompare } from "@/sections/LandingCompare";
 import { Reveal } from "@/components/shared/Reveal";
 
 export default function HomePage() {
@@ -33,6 +35,8 @@ export default function HomePage() {
         <LandingImpact />
       </Reveal>
       <LandingScrollStack />
+      <LandingAppShowcase />
+      <LandingCompare />
       <Reveal>
         <LandingFeatures />
       </Reveal>
