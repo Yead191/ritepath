@@ -14,6 +14,7 @@ import { LandingImpact } from "@/sections/LandingImpact";
 import { LandingScrollStack } from "@/sections/LandingScrollStack";
 import { LandingAppShowcase } from "@/sections/LandingAppShowcase";
 import { LandingCompare } from "@/sections/LandingCompare";
+import { LandingCEO } from "@/sections/LandingCEO";
 import { Reveal } from "@/components/shared/Reveal";
 
 export default function HomePage() {
@@ -37,7 +38,8 @@ export default function HomePage() {
       <LandingScrollStack />
       <LandingAppShowcase />
       <LandingCompare />
-      <Reveal>
+      <LandingCEO />
+      {/* <Reveal>
         <LandingFeatures />
       </Reveal>
       <Reveal>
@@ -45,7 +47,7 @@ export default function HomePage() {
       </Reveal>
       <Reveal>
         <LandingSteps />
-      </Reveal>
+      </Reveal> */}
       <Reveal>
         <LandingCTA onViewDemo={() => {}} />
       </Reveal>

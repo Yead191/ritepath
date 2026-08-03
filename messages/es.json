@@ -28,6 +28,22 @@
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
     },
+    "ceo": {
+      "label": "Sobre el CEO",
+      "eyebrow": "Conoce a nuestro CEO",
+      "title": "Hecho para quienes están presentes cuando las familias más lo necesitan.",
+      "quote": "La tecnología nunca debería estorbar el cuidado. Debe abrir el camino en silencio para que los equipos hagan lo que mejor saben hacer.",
+      "bio1": "Antes de fundar RitePath, David pasó dos décadas ayudando a funerarias y operadores de cuidado a modernizarse — viendo a grandes equipos ahogarse en papel, bandejas de entrada y herramientas desconectadas.",
+      "bio2": "RitePath es su respuesta: un espacio de trabajo sereno para casos, cumplimiento, proveedores y seguimientos familiares — para que las operaciones se sientan tan compasivas como las personas detrás de ellas.",
+      "name": "David Okonkwo",
+      "role": "Fundador y CEO, RitePath",
+      "signature": "— David",
+      "cta": "Leer la historia del fundador",
+      "ctaNote": "O agenda un recorrido con el equipo que construye junto a operadores cada semana.",
+      "imageAlt": "Retrato de David Okonkwo, Fundador y CEO de RitePath",
+      "stat1": { "value": "20+", "label": "años en operaciones" },
+      "stat2": { "value": "1,200+", "label": "equipos apoyados" }
+    },
     "compare": {
       "tabs": {
         "before": "Antes de RitePath",
