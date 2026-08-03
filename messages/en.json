@@ -1,0 +1,115 @@
+{
+  "landing": {
+    "nav": {
+      "items": ["Features", "Solutions", "How It Works", "Pricing"],
+      "signOutAria": "Sign out of your account",
+      "signingOut": "Signing out...",
+      "signOut": "Sign out",
+      "logoAlt": "Ritepath Logo",
+      "openMenu": "Open navigation menu",
+      "closeMenu": "Close navigation menu",
+      "notifications": "Notifications"
+    },
+    "hero": {
+      "headline": "Empowering Operations. Reimagined for Modern Teams.",
+      "subtitle": "Simplify workflows, streamline compliance, and elevate experience with an intuitive platform designed for excellence.",
+      "freeTrial": "14-day free trial • No credit card required",
+      "ratingAria": "5 out of 5 stars",
+      "rating": "4.9/5 from over 1,200+ reviews",
+      "videoTitle": "Ritepath Platform Overview",
+      "trustedTech": "Trusted by Leading Organizations",
+      "iccfaAlt": "ICCFA Partner",
+      "officeLogicAlt": "Office Logic",
+      "awsAria": "AWS Cloud",
+      "googleCloudAria": "Google Cloud"
+    },
+    "features": {
+      "eyebrow": "Cutting-Edge Platform",
+      "titleLine1": "Streamlined Management,",
+      "titleLine2": "Zero Complexity",
+      "body": "Take full control of your operation with intelligent tools, real-time analytics, and automated workflows designed to save time and eliminate friction.",
+      "chromeUrl": "app.ritepath.com",
+      "screenshotAlt": "Ritepath Dashboard Preview"
+    },
+    "benefits": {
+      "imageAlt": "Compassion & Precision in Care Operations",
+      "title": "Built with Compassion & Precision",
+      "subtitle": "Designed to minimize administrative overhead and allow your team to focus on what matters most.",
+      "items": [
+        {
+          "title": "Automated Compliance Tracking",
+          "description": "Stay up-to-date with regulatory standards effortlessly with automated checks and audit trails."
+        },
+        {
+          "title": "Seamless Team Collaboration",
+          "description": "Connect staff, vendors, and management in one unified, real-time workspace."
+        },
+        {
+          "title": "Real-Time Insights & Reports",
+          "description": "Generate actionable data and executive reports with a single click."
+        }
+      ]
+    },
+    "steps": {
+      "headingTitle": "How Ritepath Works",
+      "headingSubtitle": "Four simple steps to transform your operations and efficiency.",
+      "items": [
+        {
+          "title": "Connect & Import",
+          "body": [
+            "Easily integrate with your existing tools and import your operational data in minutes with our automated onboarding."
+          ]
+        },
+        {
+          "title": "Configure Workflows",
+          "body": [
+            "Tailor processes and permissions to fit your exact organizational requirements without complex setup."
+          ]
+        },
+        {
+          "title": "Collaborate & Execute",
+          "body": [
+            "Empower your staff with real-time updates, automated task routing, and transparent execution."
+          ]
+        },
+        {
+          "title": "Analyze & Optimize",
+          "body": [
+            "Gain deep operational insights and continuously optimize performance with intelligent analytics."
+          ]
+        }
+      ],
+      "actions": {
+        "learnMore": "Learn More",
+        "learnMoreAria": "Learn more about this step"
+      }
+    },
+    "cta": {
+      "title": "Ready to Transform Your Workflow?",
+      "body": "Join thousands of teams who trust Ritepath to power their daily operations and drive success.",
+      "note": "Free 14-day trial • Cancel anytime • Setup takes under 5 minutes"
+    },
+    "footer": {
+      "logoAlt": "Ritepath Footer Logo",
+      "tagline": "The intelligent platform for modern operations.",
+      "columns": [
+        {
+          "title": "Product",
+          "links": ["Features", "Solutions", "Pricing", "Case Studies"]
+        },
+        {
+          "title": "Company",
+          "links": ["About Us", "Careers", "Blog", "Contact"]
+        },
+        {
+          "title": "Legal & Security",
+          "links": ["Privacy Policy", "Terms of Service", "Security Overview", "HIPAA Compliance"]
+        }
+      ],
+      "columnLinksAria": "{title} navigation links",
+      "brandName": "Ritepath Inc.",
+      "copyright": "All rights reserved.",
+      "followAria": "Follow us on {network}"
+    }
+  }
+}
