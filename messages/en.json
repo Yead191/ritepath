@@ -17,7 +17,16 @@
       "secondaryCta": "Request a demo",
       "partnershipLink": "Discover the partnership",
       "aiTag": "AI GENERATED",
-      "helpBtn": "Help"
+      "helpBtn": "Help",
+      "freeTrial": "Start your free trial — no credit card required",
+      "rating": "4.9/5 from 1,200+ teams",
+      "ratingAria": "5 out of 5 stars",
+      "videoTitle": "RitePath product demo",
+      "trustedTech": "Trusted technology",
+      "iccfaAlt": "ICCFA logo",
+      "officeLogicAlt": "Office Logic logo",
+      "awsAria": "Amazon Web Services",
+      "googleCloudAria": "Google Cloud"
     },
     "features": {
       "eyebrow": "Cutting-Edge Platform",

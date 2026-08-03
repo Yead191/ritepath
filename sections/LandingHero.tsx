@@ -75,8 +75,8 @@ export const LandingHero = ({ onViewDemo }: LandingHeroProps) => {
         </div>
       </div>
 
-      {/* Bottom-left AI tag — fixed to viewport corner */}
-      <div className="fixed bottom-5 left-5 z-40 pointer-events-none">
+      {/* Bottom-left AI tag — hero section only */}
+      <div className="absolute bottom-5 left-5 z-30 pointer-events-none">
         <div className="inline-flex items-center gap-1.5 !px-3 !py-1.5 rounded-full bg-slate-900/80 backdrop-blur-md border border-white/15 text-white text-[10px] font-extrabold uppercase tracking-widest">
           <Sparkles className="w-3 h-3 text-white/80" />
           <span>{t("aiTag")}</span>

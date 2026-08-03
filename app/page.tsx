@@ -7,12 +7,14 @@ import { LandingFooter } from "@/sections/LandingFooter";
 import { LandingHeader } from "@/sections/LandingHeader";
 import { LandingHero } from "@/sections/LandingHero";
 import { LandingSteps } from "@/sections/LandingSteps";
+import { LandingTrial } from "@/sections/LandingTrial";
 
 export default function HomePage() {
   return (
     <main>
       <LandingHeader />
       <LandingHero onViewDemo={() => {}} />
+      <LandingTrial onViewDemo={() => {}} />
       <LandingFeatures />
       <LandingBenefits />
       <LandingSteps />
