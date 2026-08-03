@@ -1,12 +1,12 @@
-'use client';
+"use client";
 
-import { LandingBenefits } from "@/sectinons/LandingBenefits";
-import { LandingCTA } from "@/sectinons/LandingCTA";
-import { LandingFeatures } from "@/sectinons/LandingFeatures";
-import { LandingFooter } from "@/sectinons/LandingFooter";
-import { LandingHeader } from "@/sectinons/LandingHeader";
-import { LandingHero } from "@/sectinons/LandingHero";
-import { LandingSteps } from "@/sectinons/LandingSteps";
+import { LandingBenefits } from "@/sections/LandingBenefits";
+import { LandingCTA } from "@/sections/LandingCTA";
+import { LandingFeatures } from "@/sections/LandingFeatures";
+import { LandingFooter } from "@/sections/LandingFooter";
+import { LandingHeader } from "@/sections/LandingHeader";
+import { LandingHero } from "@/sections/LandingHero";
+import { LandingSteps } from "@/sections/LandingSteps";
 
 export default function HomePage() {
   return (

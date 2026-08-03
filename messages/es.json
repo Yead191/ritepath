@@ -1,0 +1,75 @@
+{
+  "landing": {
+    "nav": {
+      "items": ["Funcionalidades", "Soluciones", "Cómo funciona", "Precios"],
+      "signOutAria": "Cerrar sesión",
+      "signingOut": "Cerrando sesión...",
+      "signOut": "Cerrar sesión",
+      "logoAlt": "Alan Logo",
+      "openMenu": "Abrir menú",
+      "closeMenu": "Cerrar menú",
+      "notifications": "Notificaciones"
+    },
+    "hero": {
+      "headline": "Como Kylian, elige Alan.",
+      "subtitle": "El seguro de prevención que te hace amar tu salud.",
+      "primaryCta": "Mi presupuesto en 2 min",
+      "secondaryCta": "Pedir una demo",
+      "partnershipLink": "Descubrir la alianza",
+      "aiTag": "GENERADO POR IA",
+      "helpBtn": "Ayuda"
+    },
+    "features": {
+      "eyebrow": "Plataforma de Vanguardia",
+      "titleLine1": "Gestión Simplificada,",
+      "titleLine2": "Cero Complicaciones",
+      "body": "Toma el control total de tu salud con herramientas inteligentes y asistencia 24/7.",
+      "chromeUrl": "app.alan.com",
+      "screenshotAlt": "Vista Previa de Alan"
+    },
+    "benefits": {
+      "imageAlt": "Comprensión y Precisión",
+      "title": "Diseñado con Compasión y Precisión",
+      "subtitle": "Diseñado para minimizar la carga administrativa.",
+      "items": [
+        {
+          "title": "Seguimiento Automático de Cobertura",
+          "description": "Mantente al día con reembolsos instantáneos."
+        }
+      ]
+    },
+    "steps": {
+      "headingTitle": "Cómo funciona Alan",
+      "headingSubtitle": "Cuatro sencillos pasos para transformar tu experiencia de salud.",
+      "items": [
+        {
+          "title": "Conectar e Importar",
+          "body": ["Integra fácilmente tus datos en minutos."]
+        }
+      ],
+      "actions": {
+        "learnMore": "Saber más",
+        "learnMoreAria": "Más información"
+      }
+    },
+    "cta": {
+      "title": "¿Listo para transformar tu salud?",
+      "body": "Únete a miles de equipos que confían en Alan.",
+      "note": "Prueba gratuita de 14 días • Configuración en 5 minutos"
+    },
+    "footer": {
+      "logoAlt": "Alan Logo Pie",
+      "tagline": "La plataforma inteligente para tu salud.",
+      "columns": [
+        {
+          "title": "Producto",
+          "links": ["Funcionalidades", "Soluciones", "Precios", "Casos de éxito"]
+        }
+      ],
+      "columnLinksAria": "Enlaces de navegación",
+      "brandName": "Alan Inc.",
+      "copyright": "Todos los derechos reservados.",
+      "followAria": "Síguenos en {network}"
+    }
+  }
+}

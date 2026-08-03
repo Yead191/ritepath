@@ -5,31 +5,27 @@
       "signOutAria": "Sign out of your account",
       "signingOut": "Signing out...",
       "signOut": "Sign out",
-      "logoAlt": "Ritepath Logo",
+      "logoAlt": "Alan Logo",
       "openMenu": "Open navigation menu",
       "closeMenu": "Close navigation menu",
       "notifications": "Notifications"
     },
     "hero": {
-      "headline": "Empowering Operations. Reimagined for Modern Teams.",
-      "subtitle": "Simplify workflows, streamline compliance, and elevate experience with an intuitive platform designed for excellence.",
-      "freeTrial": "14-day free trial • No credit card required",
-      "ratingAria": "5 out of 5 stars",
-      "rating": "4.9/5 from over 1,200+ reviews",
-      "videoTitle": "Ritepath Platform Overview",
-      "trustedTech": "Trusted by Leading Organizations",
-      "iccfaAlt": "ICCFA Partner",
-      "officeLogicAlt": "Office Logic",
-      "awsAria": "AWS Cloud",
-      "googleCloudAria": "Google Cloud"
+      "headline": "Like Kylian, choose Alan.",
+      "subtitle": "The preventive health partner that makes you love your health.",
+      "primaryCta": "Get quote in 2 min",
+      "secondaryCta": "Request a demo",
+      "partnershipLink": "Discover the partnership",
+      "aiTag": "AI GENERATED",
+      "helpBtn": "Help"
     },
     "features": {
       "eyebrow": "Cutting-Edge Platform",
       "titleLine1": "Streamlined Management,",
       "titleLine2": "Zero Complexity",
       "body": "Take full control of your operation with intelligent tools, real-time analytics, and automated workflows designed to save time and eliminate friction.",
-      "chromeUrl": "app.ritepath.com",
-      "screenshotAlt": "Ritepath Dashboard Preview"
+      "chromeUrl": "app.alan.com",
+      "screenshotAlt": "Alan Dashboard Preview"
     },
     "benefits": {
       "imageAlt": "Compassion & Precision in Care Operations",
@@ -51,7 +47,7 @@
       ]
     },
     "steps": {
-      "headingTitle": "How Ritepath Works",
+      "headingTitle": "How Alan Works",
       "headingSubtitle": "Four simple steps to transform your operations and efficiency.",
       "items": [
         {
@@ -86,11 +82,11 @@
     },
     "cta": {
       "title": "Ready to Transform Your Workflow?",
-      "body": "Join thousands of teams who trust Ritepath to power their daily operations and drive success.",
+      "body": "Join thousands of teams who trust Alan to power their daily operations and drive success.",
       "note": "Free 14-day trial • Cancel anytime • Setup takes under 5 minutes"
     },
     "footer": {
-      "logoAlt": "Ritepath Footer Logo",
+      "logoAlt": "Alan Footer Logo",
       "tagline": "The intelligent platform for modern operations.",
       "columns": [
         {
@@ -107,7 +103,7 @@
         }
       ],
       "columnLinksAria": "{title} navigation links",
-      "brandName": "Ritepath Inc.",
+      "brandName": "Alan Inc.",
       "copyright": "All rights reserved.",
       "followAria": "Follow us on {network}"
     }
