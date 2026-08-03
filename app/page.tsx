@@ -8,6 +8,7 @@ import { LandingHeader } from "@/sections/LandingHeader";
 import { LandingHero } from "@/sections/LandingHero";
 import { LandingSteps } from "@/sections/LandingSteps";
 import { LandingTrial } from "@/sections/LandingTrial";
+import { LandingSolutions } from "@/sections/LandingSolutions";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <LandingHeader />
       <LandingHero onViewDemo={() => {}} />
       <LandingTrial onViewDemo={() => {}} />
+      <LandingSolutions />
       <LandingFeatures />
       <LandingBenefits />
       <LandingSteps />

@@ -28,6 +28,33 @@
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
     },
+    "solutions": {
+      "title": "Find the solution built for your operation",
+      "subtitle": "Whether you run a single location or a growing network, RitePath adapts to how your team works — with compliance, coordination, and clarity at every step.",
+      "discover": "Discover",
+      "items": {
+        "independent": {
+          "title": "Independent Funeral Homes",
+          "description": "Run day-to-day operations with less admin. Built for teams with <strong>fewer than 15 staff</strong>, from case intake to family follow-up.",
+          "imageAlt": "Care team collaborating in a modern funeral home office"
+        },
+        "cemetery": {
+          "title": "Cemeteries & Memorial Parks",
+          "description": "Coordinate grounds, records, and family services in one place — so your team stays focused on <strong>compassionate care</strong>.",
+          "imageAlt": "Cemetery operations staff reviewing schedules on a computer"
+        },
+        "multiLocation": {
+          "title": "Multi-Location Groups",
+          "description": "Standardize workflows across sites while giving each location the flexibility it needs. Real-time visibility for <strong>owners and managers</strong>.",
+          "imageAlt": "Multi-location leadership team collaborating in a bright office"
+        },
+        "vendors": {
+          "title": "Vendors & Partners",
+          "description": "Connect vendors, suppliers, and partners into the same workspace — with clear requests, status updates, and <strong>shared accountability</strong>.",
+          "imageAlt": "Business partners sealing a collaboration in a modern office"
+        }
+      }
+    },
     "features": {
       "eyebrow": "Cutting-Edge Platform",
       "titleLine1": "Streamlined Management,",

@@ -28,6 +28,33 @@
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
     },
+    "solutions": {
+      "title": "Encuentra la solución pensada para tu operación",
+      "subtitle": "Ya sea una sola ubicación o una red en crecimiento, RitePath se adapta a cómo trabaja tu equipo — con cumplimiento, coordinación y claridad en cada paso.",
+      "discover": "Descubrir",
+      "items": {
+        "independent": {
+          "title": "Funerarias independientes",
+          "description": "Opera el día a día con menos carga administrativa. Pensado para equipos con <strong>menos de 15 personas</strong>, desde la admisión hasta el seguimiento familiar.",
+          "imageAlt": "Equipo de cuidado colaborando en una oficina funeraria moderna"
+        },
+        "cemetery": {
+          "title": "Cementerios y parques memoriales",
+          "description": "Coordina terrenos, registros y servicios familiares en un solo lugar — para que tu equipo se enfoque en el <strong>cuidado compasivo</strong>.",
+          "imageAlt": "Personal de cementerio revisando horarios en una computadora"
+        },
+        "multiLocation": {
+          "title": "Grupos multiubicación",
+          "description": "Estandariza flujos entre sedes y da flexibilidad a cada ubicación. Visibilidad en tiempo real para <strong>dueños y gerentes</strong>.",
+          "imageAlt": "Equipo de liderazgo multiubicación colaborando en una oficina luminosa"
+        },
+        "vendors": {
+          "title": "Proveedores y socios",
+          "description": "Conecta proveedores y socios en el mismo espacio de trabajo — con solicitudes claras, actualizaciones de estado y <strong>responsabilidad compartida</strong>.",
+          "imageAlt": "Socios de negocio sellando una colaboración en una oficina moderna"
+        }
+      }
+    },
     "features": {
       "eyebrow": "Plataforma de Vanguardia",
       "titleLine1": "Gestión Simplificada,",
