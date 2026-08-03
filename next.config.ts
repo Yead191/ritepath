@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
     qualities: [75, 100],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "6vvt7k9n.twic.pics",
+      },
+    ],
   },
 };
 

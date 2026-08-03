@@ -28,6 +28,31 @@
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
     },
+    "scrollStack": {
+      "cards": {
+        "efficiency": {
+          "title": "Gana eficiencia operativa",
+          "body": "Movimientos de casos, actualizaciones de proveedores, formularios… Automatiza la administración que frena a tu equipo con el espacio de operaciones más claro para proveedores de cuidado.",
+          "stat": "El 98% de los equipos clientes dedica menos de 2 horas a la semana a la administración rutinaria de casos.",
+          "footnote": "Estimación basada en el uso de la plataforma por clientes de RitePath en 2024.",
+          "imageAlt": "Panel en laptop con tarjetas de notificación flotantes"
+        },
+        "prevention": {
+          "title": "Gana con coordinación proactiva",
+          "body": "Mantén informadas a las familias y alineado al personal antes de que escalen los problemas — con agendas compartidas, recordatorios y traspasos en tiempo real.",
+          "stat": "+20 traspasos más claros / mes en promedio por ubicación.",
+          "footnote": "Datos de operaciones RitePath, junio 2025.",
+          "imageAlt": "Líder de equipo sonriendo en una oficina luminosa"
+        },
+        "care": {
+          "title": "Más cuidado, menos costo",
+          "body": "Reduce retrabajo y seguimientos perdidos. Ofrece una experiencia consistente a cada familia mientras tu equipo pierde menos tiempo persiguiendo estados.",
+          "stat": "El 50% de los equipos reporta menos catch-ups fuera de horario tras migrar a RitePath.",
+          "footnote": "Basado en entrevistas y revisiones de uso, 2024–2025.",
+          "imageAlt": "Experiencia de mensajería móvil junto a una foto lifestyle"
+        }
+      }
+    },
     "impact": {
       "title": "Cuando la operación fluye, todo mejora",
       "body1": "El 86% de los equipos de cuidado afirma que una mejor coordinación mejora la experiencia familiar (NFDA, 2024).",

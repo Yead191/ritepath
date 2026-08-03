@@ -28,6 +28,31 @@
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
     },
+    "scrollStack": {
+      "cards": {
+        "efficiency": {
+          "title": "Gain operational efficiency",
+          "body": "Case movements, vendor updates, compliance forms… Automate the admin that slows your team down with the clearest operations workspace for care providers.",
+          "stat": "98% of client teams spend under 2 hours a week on routine case admin.",
+          "footnote": "Estimate based on platform usage by RitePath clients in 2024.",
+          "imageAlt": "Laptop dashboard with floating notification cards"
+        },
+        "prevention": {
+          "title": "Win on proactive coordination",
+          "body": "Keep families informed and staff aligned before issues escalate — with shared schedules, reminders, and real-time handoffs across your locations.",
+          "stat": "+20 clearer handoffs / month on average per location.",
+          "footnote": "RitePath operations data, June 2025.",
+          "imageAlt": "Team leader smiling in a bright office setting"
+        },
+        "care": {
+          "title": "More care, less cost",
+          "body": "Cut rework and missed follow-ups. Give every family a consistent experience while your team spends less time chasing status updates.",
+          "stat": "50% of teams report fewer after-hours catch-ups after switching to RitePath.",
+          "footnote": "Based on customer interviews and usage reviews, 2024–2025.",
+          "imageAlt": "Mobile care messaging experience beside a lifestyle photo"
+        }
+      }
+    },
     "impact": {
       "title": "When operations run smoothly, everything follows",
       "body1": "86% of care teams say better coordination directly improves family experience (NFDA, 2024).",
