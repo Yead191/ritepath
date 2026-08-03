@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  /* Typography */
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  /* Typography — AlanSans with Helvetica/Arial fallbacks */
+  --font-sans: var(--font-alan-sans), AlanSans, Helvetica, Arial, sans-serif;
   --font-size: 16px;
   
   /* Spacing system - 8/12/24 based */
@@ -124,6 +122,8 @@
 
   body {
     font-family: var(--font-sans);
+    font-style: normal;
+    font-weight: 400;
     background: var(--background);
     color: var(--foreground);
     -webkit-font-smoothing: antialiased;

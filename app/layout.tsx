@@ -1,17 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import { NextIntlClientProvider } from 'next-intl';
-import messages from '@/messages/en.json';
+import { Alan_Sans } from "next/font/google";
+import { NextIntlClientProvider } from "next-intl";
+import messages from "@/messages/en.json";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const alanSans = Alan_Sans({
   subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  style: "normal",
+  variable: "--font-alan-sans",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -25,11 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">
+    <html lang="en" className={`${alanSans.variable} h-full antialiased`}>
+      <body className={`${alanSans.className} min-h-full flex flex-col`}>
         <NextIntlClientProvider locale="en" messages={messages}>
           {children}
         </NextIntlClientProvider>
