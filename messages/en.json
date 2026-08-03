@@ -28,6 +28,62 @@
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
     },
+    "impact": {
+      "title": "When operations run smoothly, everything follows",
+      "body1": "86% of care teams say better coordination directly improves family experience (NFDA, 2024).",
+      "body2": "Invest in clearer workflows — and your staff, families, and margins all benefit.",
+      "source": "Source: Josh Bersin Company / NFDA workforce studies",
+      "illustrationAlt": "Friendly mascot working at a desk with a computer",
+      "cards": {
+        "retention": {
+          "label": "Retention",
+          "stat": "3x",
+          "description": "more likely to keep skilled staff year over year"
+        },
+        "productivity": {
+          "label": "Productivity",
+          "stat": "2x",
+          "description": "faster case handoffs across teams and locations"
+        },
+        "absenteeism": {
+          "label": "Coverage",
+          "stat": "10x",
+          "description": "fewer missed tasks when roles and schedules are clear"
+        }
+      },
+      "testimonial": {
+        "quote": "It has to be said: organized operations change everything for families.",
+        "attribution": "Maria Chen, Operations Director",
+        "imageAlt": "Portrait of Maria Chen, Operations Director"
+      }
+    },
+    "insights": {
+      "title": "Care operations are stretched past the breaking point",
+      "subtitle": "Paperwork overload, rising compliance risk, and fragmented tools leave teams with less time for families — and more cost for the business.",
+      "items": {
+        "admin": {
+          "stat": "62%",
+          "statLabel": "of funeral home staff spend more time on paperwork than with families.",
+          "title": "Admin is crowding out care",
+          "source": "NFDA Operations Survey, 2024",
+          "imageAlt": "Quiet empty waiting room in a care facility"
+        },
+        "compliance": {
+          "stat": "40%",
+          "statLabel": "rise in compliance-related admin hours over the last five years.",
+          "title": "Regulatory load keeps growing",
+          "source": "ICCFA Industry Report, 2024",
+          "imageAlt": "Desk overloaded with paperwork and forms"
+        },
+        "cost": {
+          "stat": "$18k",
+          "statLabel": "average yearly cost of disconnected tools per location.",
+          "title": "Fragmented systems drain the bottom line",
+          "source": "RitePath Operator Study, 2025",
+          "imageAlt": "Empty modern office representing wasted operational spend"
+        }
+      }
+    },
     "solutions": {
       "title": "Find the solution built for your operation",
       "subtitle": "Whether you run a single location or a growing network, RitePath adapts to how your team works — with compliance, coordination, and clarity at every step.",

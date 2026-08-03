@@ -9,18 +9,41 @@ import { LandingHero } from "@/sections/LandingHero";
 import { LandingSteps } from "@/sections/LandingSteps";
 import { LandingTrial } from "@/sections/LandingTrial";
 import { LandingSolutions } from "@/sections/LandingSolutions";
+import { LandingInsights } from "@/sections/LandingInsights";
+import { LandingImpact } from "@/sections/LandingImpact";
+import { Reveal } from "@/components/shared/Reveal";
 
 export default function HomePage() {
   return (
     <main>
       <LandingHeader />
       <LandingHero onViewDemo={() => {}} />
-      <LandingTrial onViewDemo={() => {}} />
-      <LandingSolutions />
-      <LandingFeatures />
-      <LandingBenefits />
-      <LandingSteps />
-      <LandingCTA onViewDemo={() => {}} />
+
+      <Reveal>
+        <LandingTrial onViewDemo={() => {}} />
+      </Reveal>
+      <Reveal>
+        <LandingSolutions />
+      </Reveal>
+      <Reveal>
+        <LandingInsights />
+      </Reveal>
+      <Reveal>
+        <LandingImpact />
+      </Reveal>
+      <Reveal>
+        <LandingFeatures />
+      </Reveal>
+      <Reveal>
+        <LandingBenefits />
+      </Reveal>
+      <Reveal>
+        <LandingSteps />
+      </Reveal>
+      <Reveal>
+        <LandingCTA onViewDemo={() => {}} />
+      </Reveal>
+
       <LandingFooter />
     </main>
   );

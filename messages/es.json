@@ -28,6 +28,62 @@
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
     },
+    "impact": {
+      "title": "Cuando la operación fluye, todo mejora",
+      "body1": "El 86% de los equipos de cuidado afirma que una mejor coordinación mejora la experiencia familiar (NFDA, 2024).",
+      "body2": "Invierte en flujos más claros — y se benefician tu equipo, las familias y tus márgenes.",
+      "source": "Fuente: Josh Bersin Company / estudios de fuerza laboral NFDA",
+      "illustrationAlt": "Mascota amigable trabajando en un escritorio con computadora",
+      "cards": {
+        "retention": {
+          "label": "Retención",
+          "stat": "3x",
+          "description": "más probabilidad de retener personal capacitado año tras año"
+        },
+        "productivity": {
+          "label": "Productividad",
+          "stat": "2x",
+          "description": "traspasos de casos más rápidos entre equipos y sedes"
+        },
+        "absenteeism": {
+          "label": "Cobertura",
+          "stat": "10x",
+          "description": "menos tareas perdidas cuando roles y turnos están claros"
+        }
+      },
+      "testimonial": {
+        "quote": "Hay que repetirlo: una operación organizada lo cambia todo para las familias.",
+        "attribution": "Maria Chen, Directora de Operaciones",
+        "imageAlt": "Retrato de Maria Chen, Directora de Operaciones"
+      }
+    },
+    "insights": {
+      "title": "Las operaciones de cuidado están al límite",
+      "subtitle": "El exceso de papeleo, el riesgo de cumplimiento y las herramientas fragmentadas dejan a los equipos con menos tiempo para las familias — y más costos para el negocio.",
+      "items": {
+        "admin": {
+          "stat": "62%",
+          "statLabel": "del personal funerario dedica más tiempo al papeleo que a las familias.",
+          "title": "La administración desplaza el cuidado",
+          "source": "Encuesta de operaciones NFDA, 2024",
+          "imageAlt": "Sala de espera vacía y silenciosa en un centro de cuidado"
+        },
+        "compliance": {
+          "stat": "40%",
+          "statLabel": "de aumento en horas administrativas de cumplimiento en cinco años.",
+          "title": "La carga regulatoria sigue creciendo",
+          "source": "Informe de la industria ICCFA, 2024",
+          "imageAlt": "Escritorio sobrecargado de formularios y documentos"
+        },
+        "cost": {
+          "stat": "$18k",
+          "statLabel": "costo anual promedio de herramientas desconectadas por ubicación.",
+          "title": "Los sistemas fragmentados erosionan el margen",
+          "source": "Estudio de operadores RitePath, 2025",
+          "imageAlt": "Oficina moderna vacía que representa gasto operativo desperdiciado"
+        }
+      }
+    },
     "solutions": {
       "title": "Encuentra la solución pensada para tu operación",
       "subtitle": "Ya sea una sola ubicación o una red en crecimiento, RitePath se adapta a cómo trabaja tu equipo — con cumplimiento, coordinación y claridad en cada paso.",
