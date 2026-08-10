@@ -1,32 +1,39 @@
 {
   "landing": {
     "nav": {
-      "items": ["Features", "Solutions", "How It Works", "Pricing"],
+      "items": ["Solutions", "How It Works", "Product", "Pricing"],
       "signOutAria": "Sign out of your account",
       "signingOut": "Signing out...",
       "signOut": "Sign out",
-      "logoAlt": "Alan Logo",
+      "logoAlt": "RitePath Logo",
       "openMenu": "Open navigation menu",
       "closeMenu": "Close navigation menu",
       "notifications": "Notifications"
     },
     "hero": {
-      "headline": "Like Kylian, choose Alan.",
-      "subtitle": "The preventive health partner that makes you love your health.",
-      "primaryCta": "Get quote in 2 min",
-      "secondaryCta": "Request a demo",
-      "partnershipLink": "Discover the partnership",
+      "headline": "Operations that leave more room for families.",
+      "subtitle": "RitePath helps funeral homes, cemeteries, and care teams run cases, compliance, and vendors in one calm workspace.",
+      "primaryCta": "Book a demo",
+      "secondaryCta": "View product tour",
+      "partnershipLink": "See how teams use RitePath",
       "aiTag": "AI GENERATED",
       "helpBtn": "Help",
       "freeTrial": "Start your free trial — no credit card required",
-      "rating": "4.9/5 from 1,200+ teams",
+      "rating": "4.9/5 from 1,200+ care teams",
       "ratingAria": "5 out of 5 stars",
       "videoTitle": "RitePath product demo",
-      "trustedTech": "Trusted technology",
+      "trustedTech": "Trusted by operators and partners",
       "iccfaAlt": "ICCFA logo",
       "officeLogicAlt": "Office Logic logo",
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
+    },
+    "proof": {
+      "title": "Care operations are stretched past the breaking point",
+      "subtitle": "Paperwork, compliance risk, and fragmented tools leave teams with less time for families — and more cost for the business.",
+      "outcomesTitle": "When workflows are clear, everything follows",
+      "outcomesSubtitle": "Teams that standardize handoffs and case updates see stronger retention, faster coordination, and fewer missed tasks.",
+      "source": "Sources: NFDA, ICCFA industry reports, RitePath operator studies"
     },
     "ceo": {
       "label": "About the CEO",
@@ -115,8 +122,8 @@
       }
     },
     "appShowcase": {
-      "title": "Operations finally found their app",
-      "subtitle": "4.9/5 from teams on the App Store and Play Store",
+      "title": "Care operations finally found their app",
+      "subtitle": "Built for funeral homes, cemeteries, and multi-location teams — rated 4.9/5 by operators",
       "notification": {
         "title": "Case update synced",
         "time": "9:41 AM",
@@ -252,21 +259,21 @@
       }
     },
     "features": {
-      "eyebrow": "Cutting-Edge Platform",
+      "eyebrow": "Care Operations Platform",
       "titleLine1": "Streamlined Management,",
       "titleLine2": "Zero Complexity",
-      "body": "Take full control of your operation with intelligent tools, real-time analytics, and automated workflows designed to save time and eliminate friction.",
-      "chromeUrl": "app.alan.com",
-      "screenshotAlt": "Alan Dashboard Preview"
+      "body": "Take full control of cases, compliance, vendors, and family follow-ups with intelligent tools and automated workflows designed for funeral and cemetery teams.",
+      "chromeUrl": "app.ritepath.com",
+      "screenshotAlt": "RitePath dashboard preview"
     },
     "benefits": {
-      "imageAlt": "Compassion & Precision in Care Operations",
+      "imageAlt": "Compassion and precision in care operations",
       "title": "Built with Compassion & Precision",
-      "subtitle": "Designed to minimize administrative overhead and allow your team to focus on what matters most.",
+      "subtitle": "Designed to minimize administrative overhead so your team can focus on families.",
       "items": [
         {
           "title": "Automated Compliance Tracking",
-          "description": "Stay up-to-date with regulatory standards effortlessly with automated checks and audit trails."
+          "description": "Stay current with regulatory standards with automated checks and audit trails built for care operators."
         },
         {
           "title": "Seamless Team Collaboration",
@@ -274,36 +281,36 @@
         },
         {
           "title": "Real-Time Insights & Reports",
-          "description": "Generate actionable data and executive reports with a single click."
+          "description": "Generate actionable operational data and executive reports with a single click."
         }
       ]
     },
     "steps": {
-      "headingTitle": "How Alan Works",
-      "headingSubtitle": "Four simple steps to transform your operations and efficiency.",
+      "headingTitle": "How RitePath Works",
+      "headingSubtitle": "Four simple steps to bring clarity to your care operation.",
       "items": [
         {
           "title": "Connect & Import",
           "body": [
-            "Easily integrate with your existing tools and import your operational data in minutes with our automated onboarding."
+            "Bring in cases, contacts, and operational data in minutes with guided onboarding built for funeral and cemetery teams."
           ]
         },
         {
           "title": "Configure Workflows",
           "body": [
-            "Tailor processes and permissions to fit your exact organizational requirements without complex setup."
+            "Tailor permissions, forms, and location rules to match how your organization already works."
           ]
         },
         {
           "title": "Collaborate & Execute",
           "body": [
-            "Empower your staff with real-time updates, automated task routing, and transparent execution."
+            "Empower staff and vendors with real-time updates, clear task routing, and transparent handoffs."
           ]
         },
         {
           "title": "Analyze & Optimize",
           "body": [
-            "Gain deep operational insights and continuously optimize performance with intelligent analytics."
+            "See performance across locations and continuously improve with insights that matter to owners and managers."
           ]
         }
       ],
@@ -313,17 +320,17 @@
       }
     },
     "cta": {
-      "title": "Ready to Transform Your Workflow?",
-      "body": "Join thousands of teams who trust Alan to power their daily operations and drive success.",
+      "title": "Ready to give your team their time back?",
+      "body": "Join care operators who trust RitePath to run cases, compliance, and family follow-ups in one place.",
       "note": "Free 14-day trial • Cancel anytime • Setup takes under 5 minutes"
     },
     "footer": {
-      "logoAlt": "Alan Footer Logo",
-      "tagline": "The intelligent platform for modern operations.",
+      "logoAlt": "RitePath Footer Logo",
+      "tagline": "The calm operations platform for funeral homes, cemeteries, and care teams.",
       "columns": [
         {
           "title": "Product",
-          "links": ["Features", "Solutions", "Pricing", "Case Studies"]
+          "links": ["Solutions", "How It Works", "Pricing", "Case Studies"]
         },
         {
           "title": "Company",
@@ -335,8 +342,9 @@
         }
       ],
       "columnLinksAria": "{title} navigation links",
-      "brandName": "Alan Inc.",
+      "brandName": "RitePath",
       "copyright": "All rights reserved.",
+      "hipaaNote": "Built with HIPAA-ready controls for sensitive care operations data.",
       "followAria": "Follow us on {network}"
     }
   }

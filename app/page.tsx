@@ -1,21 +1,18 @@
 "use client";
 
-import { LandingBenefits } from "@/sections/LandingBenefits";
-import { LandingCTA } from "@/sections/LandingCTA";
-import { LandingFeatures } from "@/sections/LandingFeatures";
 import { LandingFooter } from "@/sections/LandingFooter";
 import { LandingHeader } from "@/sections/LandingHeader";
 import { LandingHero } from "@/sections/LandingHero";
-import { LandingSteps } from "@/sections/LandingSteps";
 import { LandingTrial } from "@/sections/LandingTrial";
 import { LandingSolutions } from "@/sections/LandingSolutions";
-import { LandingInsights } from "@/sections/LandingInsights";
-import { LandingImpact } from "@/sections/LandingImpact";
-import { LandingScrollStack } from "@/sections/LandingScrollStack";
+import { LandingProof } from "@/sections/LandingProof";
+// import { LandingInsights } from "@/sections/LandingInsights";
+// import { LandingImpact } from "@/sections/LandingImpact";
+// import { LandingScrollStack } from "@/sections/LandingScrollStack";
 import { LandingAppShowcase } from "@/sections/LandingAppShowcase";
 import { LandingCompare } from "@/sections/LandingCompare";
 import { LandingCEO } from "@/sections/LandingCEO";
-import { Reveal } from "@/components/shared/Reveal";
+import { LandingCTA } from "@/sections/LandingCTA";
 
 export default function HomePage() {
   return (
@@ -23,20 +20,17 @@ export default function HomePage() {
       <LandingHeader />
       <LandingHero onViewDemo={() => {}} />
 
-      <Reveal>
-        <LandingTrial onViewDemo={() => {}} />
-      </Reveal>
-      <Reveal>
-        <LandingSolutions />
-      </Reveal>
-      <Reveal>
-        <LandingInsights />
-      </Reveal>
-      <Reveal>
-        <LandingImpact />
-      </Reveal>
-      <LandingScrollStack />
+      <LandingTrial onViewDemo={() => {}} />
+
+      <LandingSolutions />
+
+      <LandingProof />
+      {/* <LandingInsights /> */}
+      {/* <LandingImpact /> */}
+
       <LandingAppShowcase />
+      {/* <LandingScrollStack /> */}
+
       <LandingCompare />
       <LandingCEO />
       {/* <Reveal>
@@ -48,9 +42,8 @@ export default function HomePage() {
       <Reveal>
         <LandingSteps />
       </Reveal> */}
-      <Reveal>
-        <LandingCTA onViewDemo={() => {}} />
-      </Reveal>
+
+      <LandingCTA onViewDemo={() => {}} />
 
       <LandingFooter />
     </main>

@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowRight, Sparkles, HelpCircle } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { useTranslations } from "next-intl";
 
 interface LandingHeroProps {
@@ -12,44 +12,56 @@ export const LandingHero = ({ onViewDemo }: LandingHeroProps) => {
   const t = useTranslations("landing.hero");
 
   return (
-    <section className="relative w-full h-screen min-h-[640px] bg-[#FFF1E1] overflow-hidden">
-      {/* Right-side photo panel — matches Alan split composition */}
-      <div className="absolute inset-y-0 right-0 z-0 w-full sm:w-[70%] lg:w-[62%] pointer-events-none">
+    <section className="relative w-full min-h-[100svh] overflow-hidden bg-[#000D25]">
+      {/* Full-bleed atmosphere — edge to edge, not a side panel */}
+      <div className="absolute inset-0">
         <Image
           src="/images/hero/hero-bg.webp"
           alt=""
           fill
           unoptimized
           priority
-          sizes="(max-width: 640px) 100vw, 62vw"
-          className="object-cover object-center select-none"
+          sizes="100vw"
+          className="object-cover object-[center_30%] select-none animate-hero-drift"
         />
-        {/* Soft fade from cream into the photo */}
         <div
           className="absolute inset-0"
           style={{
             background:
-              "linear-gradient(90deg, #FFF1E1 0%, rgba(255,241,225,0.95) 12%, rgba(255,241,225,0.55) 28%, rgba(255,241,225,0.15) 45%, transparent 62%)",
+              "linear-gradient(105deg, rgba(0,13,37,0.92) 0%, rgba(0,13,37,0.78) 38%, rgba(0,13,37,0.45) 68%, rgba(0,13,37,0.55) 100%), linear-gradient(180deg, rgba(0,13,37,0.55) 0%, transparent 28%, rgba(0,13,37,0.75) 100%)",
           }}
+        />
+        <div
+          className="pointer-events-none absolute -left-24 top-1/3 h-[28rem] w-[28rem] rounded-full blur-3xl opacity-40"
+          style={{
+            background:
+              "radial-gradient(circle, rgba(26,171,226,0.35) 0%, transparent 70%)",
+          }}
+          aria-hidden="true"
         />
       </div>
 
-      {/* Hero content — left column, vertically centered */}
-      <div className="relative z-20 h-full w-full max-w-7xl mx-auto px-6 sm:px-12 lg:px-20 flex items-center">
-        <div className="max-w-lg lg:max-w-xl text-left pt-16">
-          <h1 className="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold text-[#1a1a2e] tracking-tight leading-[1.12] mb-5">
+      <div className="relative z-10 mx-auto flex min-h-[100svh] max-w-7xl flex-col justify-end px-4 pb-16 pt-28 sm:px-6 sm:pb-20 sm:pt-32 lg:px-8 lg:pb-24">
+        <div className="max-w-2xl animate-hero-rise">
+          <p className="mb-5 text-[clamp(2.75rem,8vw,5.5rem)] font-extrabold leading-none tracking-[-0.04em] text-white">
+            RitePath
+          </p>
+
+          <div className="mb-6 h-px w-16 bg-[#1AABE2]" aria-hidden="true" />
+
+          <h1 className="max-w-xl text-2xl font-semibold tracking-tight text-white/95 sm:text-3xl lg:text-[2.35rem] lg:leading-[1.2]">
             {t("headline")}
           </h1>
 
-          <p className="text-base sm:text-lg text-[#5c5e70] font-normal leading-relaxed mb-9 max-w-md">
+          <p className="mt-5 max-w-md text-base leading-relaxed text-white/70 sm:text-lg">
             {t("subtitle")}
           </p>
 
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="mt-9 flex flex-wrap items-center gap-3">
             <button
               type="button"
               onClick={onViewDemo}
-              className="inline-flex items-center justify-center rounded-full bg-[#1AABE2] text-white text-sm sm:text-base font-semibold shadow-sm transition-all hover:bg-[#1596c7] hover:-translate-y-0.5 !px-8 !py-4"
+              className="inline-flex items-center justify-center rounded-full bg-[#1AABE2] text-sm font-semibold text-white shadow-sm transition-all hover:-translate-y-0.5 hover:bg-[#1596c7] sm:text-base !px-8 !py-4"
             >
               {t("primaryCta")}
             </button>
@@ -57,42 +69,20 @@ export const LandingHero = ({ onViewDemo }: LandingHeroProps) => {
             <button
               type="button"
               onClick={onViewDemo}
-              className="inline-flex items-center justify-center rounded-full !bg-white text-[#1AABE2] !border !border-[#1AABE2]/40 text-sm sm:text-base font-semibold shadow-sm transition-all hover:!bg-white/90 hover:-translate-y-0.5 !px-8 !py-4"
+              className="inline-flex items-center justify-center rounded-full border border-white/35 bg-white/5 text-sm font-semibold text-white backdrop-blur-sm transition-all hover:-translate-y-0.5 hover:border-white/55 hover:bg-white/10 sm:text-base !px-8 !py-4"
             >
               {t("secondaryCta")}
             </button>
           </div>
 
-          <div className="mt-8">
-            <a
-              href="#partnership"
-              className="inline-flex items-center gap-2 text-sm font-semibold text-[#1a1a2e] hover:text-[#1AABE2] transition-colors group"
-            >
-              <span>{t("partnershipLink")}</span>
-              <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
-            </a>
-          </div>
+          <a
+            href="#solutions"
+            className="mt-8 inline-flex items-center gap-2 text-sm font-medium text-white/65 transition-colors hover:text-[#1AABE2] group"
+          >
+            <span>{t("partnershipLink")}</span>
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+          </a>
         </div>
-      </div>
-
-      {/* Bottom-left AI tag — hero section only */}
-      <div className="absolute bottom-5 left-5 z-30 pointer-events-none">
-        <div className="inline-flex items-center gap-1.5 !px-3 !py-1.5 rounded-full bg-slate-900/80 backdrop-blur-md border border-white/15 text-white text-[10px] font-extrabold uppercase tracking-widest">
-          <Sparkles className="w-3 h-3 text-white/80" />
-          <span>{t("aiTag")}</span>
-        </div>
-      </div>
-
-      {/* Bottom-right help chip */}
-      <div className="fixed bottom-5 right-5 z-40">
-        <button
-          type="button"
-          onClick={onViewDemo}
-          className="inline-flex items-center gap-2 !px-4 !py-2.5 rounded-full !bg-white !border !border-[#1AABE2]/35 text-[#1AABE2] text-xs font-semibold shadow-md hover:shadow-lg transition-all"
-        >
-          <HelpCircle className="w-4 h-4" />
-          <span>{t("helpBtn")}</span>
-        </button>
       </div>
     </section>
   );

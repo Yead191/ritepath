@@ -1,32 +1,39 @@
 {
   "landing": {
     "nav": {
-      "items": ["Funcionalidades", "Soluciones", "Cómo funciona", "Precios"],
+      "items": ["Soluciones", "Cómo funciona", "Producto", "Precios"],
       "signOutAria": "Cerrar sesión",
       "signingOut": "Cerrando sesión...",
       "signOut": "Cerrar sesión",
-      "logoAlt": "Alan Logo",
+      "logoAlt": "Logo RitePath",
       "openMenu": "Abrir menú",
       "closeMenu": "Cerrar menú",
       "notifications": "Notificaciones"
     },
     "hero": {
-      "headline": "Como Kylian, elige Alan.",
-      "subtitle": "El seguro de prevención que te hace amar tu salud.",
-      "primaryCta": "Mi presupuesto en 2 min",
-      "secondaryCta": "Pedir una demo",
-      "partnershipLink": "Descubrir la alianza",
+      "headline": "Operaciones que dejan más espacio para las familias.",
+      "subtitle": "RitePath ayuda a funerarias, cementerios y equipos de cuidado a gestionar casos, cumplimiento y proveedores en un solo espacio sereno.",
+      "primaryCta": "Agendar una demo",
+      "secondaryCta": "Ver recorrido del producto",
+      "partnershipLink": "Mira cómo usan RitePath los equipos",
       "aiTag": "GENERADO POR IA",
       "helpBtn": "Ayuda",
       "freeTrial": "Empieza tu prueba gratis — sin tarjeta",
-      "rating": "4.9/5 de más de 1.200 equipos",
+      "rating": "4.9/5 de más de 1.200 equipos de cuidado",
       "ratingAria": "5 de 5 estrellas",
       "videoTitle": "Demo del producto RitePath",
-      "trustedTech": "Tecnología de confianza",
+      "trustedTech": "De confianza para operadores y socios",
       "iccfaAlt": "Logo ICCFA",
       "officeLogicAlt": "Logo Office Logic",
       "awsAria": "Amazon Web Services",
       "googleCloudAria": "Google Cloud"
+    },
+    "proof": {
+      "title": "Las operaciones de cuidado están al límite",
+      "subtitle": "El papeleo, el riesgo de cumplimiento y las herramientas fragmentadas dejan menos tiempo para las familias — y más costo para el negocio.",
+      "outcomesTitle": "Cuando los flujos son claros, todo mejora",
+      "outcomesSubtitle": "Los equipos que estandarizan traspasos y actualizaciones de casos ven mejor retención, coordinación más rápida y menos tareas perdidas.",
+      "source": "Fuentes: NFDA, informes ICCFA, estudios de operadores RitePath"
     },
     "ceo": {
       "label": "Sobre el CEO",
@@ -115,8 +122,8 @@
       }
     },
     "appShowcase": {
-      "title": "Las operaciones por fin tienen su app",
-      "subtitle": "4.9/5 según equipos en App Store y Play Store",
+      "title": "Las operaciones de cuidado por fin tienen su app",
+      "subtitle": "Hecha para funerarias, cementerios y equipos multiubicación — valorada 4.9/5 por operadores",
       "notification": {
         "title": "Caso actualizado",
         "time": "9:41 AM",
@@ -252,55 +259,92 @@
       }
     },
     "features": {
-      "eyebrow": "Plataforma de Vanguardia",
-      "titleLine1": "Gestión Simplificada,",
-      "titleLine2": "Cero Complicaciones",
-      "body": "Toma el control total de tu salud con herramientas inteligentes y asistencia 24/7.",
-      "chromeUrl": "app.alan.com",
-      "screenshotAlt": "Vista Previa de Alan"
+      "eyebrow": "Plataforma de operaciones de cuidado",
+      "titleLine1": "Gestión simplificada,",
+      "titleLine2": "Cero complicaciones",
+      "body": "Toma el control de casos, cumplimiento, proveedores y seguimientos familiares con herramientas inteligentes diseñadas para funerarias y cementerios.",
+      "chromeUrl": "app.ritepath.com",
+      "screenshotAlt": "Vista previa del panel RitePath"
     },
     "benefits": {
-      "imageAlt": "Comprensión y Precisión",
-      "title": "Diseñado con Compasión y Precisión",
-      "subtitle": "Diseñado para minimizar la carga administrativa.",
+      "imageAlt": "Compasión y precisión en operaciones de cuidado",
+      "title": "Diseñado con compasión y precisión",
+      "subtitle": "Para minimizar la carga administrativa y que tu equipo se enfoque en las familias.",
       "items": [
         {
-          "title": "Seguimiento Automático de Cobertura",
-          "description": "Mantente al día con reembolsos instantáneos."
+          "title": "Seguimiento automático de cumplimiento",
+          "description": "Mantente al día con estándares regulatorios mediante controles automatizados y trazas de auditoría."
+        },
+        {
+          "title": "Colaboración fluida del equipo",
+          "description": "Conecta personal, proveedores y dirección en un solo espacio de trabajo en tiempo real."
+        },
+        {
+          "title": "Informes e insights en tiempo real",
+          "description": "Genera datos operativos accionables e informes ejecutivos con un solo clic."
         }
       ]
     },
     "steps": {
-      "headingTitle": "Cómo funciona Alan",
-      "headingSubtitle": "Cuatro sencillos pasos para transformar tu experiencia de salud.",
+      "headingTitle": "Cómo funciona RitePath",
+      "headingSubtitle": "Cuatro pasos simples para dar claridad a tu operación de cuidado.",
       "items": [
         {
-          "title": "Conectar e Importar",
-          "body": ["Integra fácilmente tus datos en minutos."]
+          "title": "Conectar e importar",
+          "body": [
+            "Incorpora casos, contactos y datos operativos en minutos con un onboarding guiado para funerarias y cementerios."
+          ]
+        },
+        {
+          "title": "Configurar flujos",
+          "body": [
+            "Adapta permisos, formularios y reglas por ubicación a cómo ya trabaja tu organización."
+          ]
+        },
+        {
+          "title": "Colaborar y ejecutar",
+          "body": [
+            "Empodera al personal y proveedores con actualizaciones en tiempo real, enrutamiento claro y traspasos transparentes."
+          ]
+        },
+        {
+          "title": "Analizar y optimizar",
+          "body": [
+            "Ve el rendimiento entre sedes y mejora continuamente con insights útiles para dueños y gerentes."
+          ]
         }
       ],
       "actions": {
         "learnMore": "Saber más",
-        "learnMoreAria": "Más información"
+        "learnMoreAria": "Más información sobre este paso"
       }
     },
     "cta": {
-      "title": "¿Listo para transformar tu salud?",
-      "body": "Únete a miles de equipos que confían en Alan.",
-      "note": "Prueba gratuita de 14 días • Configuración en 5 minutos"
+      "title": "¿Listo para devolverle tiempo a tu equipo?",
+      "body": "Únete a operadores de cuidado que confían en RitePath para casos, cumplimiento y seguimientos familiares en un solo lugar.",
+      "note": "Prueba gratuita de 14 días • Cancela cuando quieras • Configuración en menos de 5 minutos"
     },
     "footer": {
-      "logoAlt": "Alan Logo Pie",
-      "tagline": "La plataforma inteligente para tu salud.",
+      "logoAlt": "Logo RitePath pie de página",
+      "tagline": "La plataforma serena de operaciones para funerarias, cementerios y equipos de cuidado.",
       "columns": [
         {
           "title": "Producto",
-          "links": ["Funcionalidades", "Soluciones", "Precios", "Casos de éxito"]
+          "links": ["Soluciones", "Cómo funciona", "Precios", "Casos de éxito"]
+        },
+        {
+          "title": "Compañía",
+          "links": ["Sobre nosotros", "Carreras", "Blog", "Contacto"]
+        },
+        {
+          "title": "Legal y seguridad",
+          "links": ["Política de privacidad", "Términos de servicio", "Resumen de seguridad", "Cumplimiento HIPAA"]
         }
       ],
-      "columnLinksAria": "Enlaces de navegación",
-      "brandName": "Alan Inc.",
+      "columnLinksAria": "Enlaces de navegación de {title}",
+      "brandName": "RitePath",
       "copyright": "Todos los derechos reservados.",
+      "hipaaNote": "Diseñado con controles listos para HIPAA para datos sensibles de operaciones de cuidado.",
       "followAria": "Síguenos en {network}"
     }
   }

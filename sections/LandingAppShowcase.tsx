@@ -10,11 +10,9 @@ import { Reveal } from "@/components/shared/Reveal";
 const ITEM_KEYS = ["sync", "partner", "details"] as const;
 
 const ITEM_IMAGES: Record<(typeof ITEM_KEYS)[number], string> = {
-  sync: "https://6vvt7k9n.twic.pics/prismic/aGz2f0MqNJQqHq0D_Asset-24-.png?twic=v1/resize=-x540",
-  partner:
-    "https://6vvt7k9n.twic.pics/website-assets/alan-alan-website:a2adfa0b2ce6bcde813ecf198afe903b75d2365a/pme-3c6d8854de163d86.png?twic=v1/cover=560x420",
-  details:
-    "https://6vvt7k9n.twic.pics/website-assets/alan-alan-website:a2adfa0b2ce6bcde813ecf198afe903b75d2365a/large-enterprise-2df75ddc7375c6ea.png?twic=v1/cover=560x420",
+  sync: "/images/hero/hero-bg.webp",
+  partner: "/images/impact/impact-testimonial.webp",
+  details: "/images/insights/insight-compliance.webp",
 };
 
 export const LandingAppShowcase = () => {
@@ -22,7 +20,7 @@ export const LandingAppShowcase = () => {
   const [openKey, setOpenKey] = useState<(typeof ITEM_KEYS)[number]>("sync");
 
   return (
-    <section className="relative bg-white py-16 sm:py-20 lg:py-24">
+    <section id="product" className="relative bg-white py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
           {/* Left: copy + accordion */}

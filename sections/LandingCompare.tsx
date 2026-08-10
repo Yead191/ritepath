@@ -21,46 +21,43 @@ const CARD_LAYOUT: CardDef[] = [
   {
     kind: "image",
     key: "image1",
-    image:
-      "https://6vvt7k9n.twic.pics/prismic/aG_WhkMqNJQqHwrK_Testimonial-2-.png?twic=v1/cover=470x308",
+    image: "/images/impact/impact-testimonial.webp",
   },
   { kind: "quote", key: "quote1" },
   {
     kind: "image",
     key: "image2",
-    image:
-      "https://6vvt7k9n.twic.pics/website-assets/alan-alan-website:a2adfa0b2ce6bcde813ecf198afe903b75d2365a/pme-3c6d8854de163d86.png?twic=v1/cover=470x308",
+    image: "/images/insights/insight-compliance.webp",
   },
   { kind: "stat", key: "stat2" },
   {
     kind: "image",
     key: "image3",
-    image:
-      "https://6vvt7k9n.twic.pics/website-assets/alan-alan-website:a2adfa0b2ce6bcde813ecf198afe903b75d2365a/tpe-400aa87c8d132a40.png?twic=v1/cover=470x308",
+    image: "/images/insights/insight-admin.webp",
   },
 ];
 
 const THEME = {
   before: {
-    section: "bg-[#061A1A]",
-    card: "bg-[#103B39]",
+    section: "bg-[#000D25]",
+    card: "bg-[#0F2438]",
     cardText: "text-white",
     cardMuted: "text-white/70",
-    accent: "bg-[#6366F1]",
-    accentText: "text-[#6366F1]",
-    tabActive: "bg-[#6366F1] text-white",
-    tabIdle: "bg-transparent text-[#6366F1]",
+    accent: "bg-[#1AABE2]",
+    accentText: "text-[#1AABE2]",
+    tabActive: "bg-[#1AABE2] text-white",
+    tabIdle: "bg-transparent text-[#000D25]/70",
     imageFilter: "grayscale",
   },
   after: {
-    section: "bg-white",
+    section: "bg-[#E8F6FB]",
     card: "bg-[#FFF1E1]",
     cardText: "text-[#1a1a2e]",
     cardMuted: "text-[#1a1a2e]/65",
     accent: "bg-[#1AABE2]",
     accentText: "text-[#1AABE2]",
     tabActive: "bg-[#1AABE2] text-white",
-    tabIdle: "bg-transparent text-[#1AABE2]",
+    tabIdle: "bg-transparent text-[#000D25]/70",
     imageFilter: "",
   },
 } as const;
@@ -79,7 +76,7 @@ export const LandingCompare = () => {
         // 20% visible → "after"; reverse when visibility drops below 20%
         setTab(entry.isIntersecting ? "after" : "before");
       },
-      { threshold: 0.5 },
+      { threshold: 0.2 },
     );
 
     observer.observe(el);
@@ -163,7 +160,7 @@ export const LandingCompare = () => {
                   <div className="mt-6 flex items-center gap-3">
                     <div className="relative h-10 w-10 overflow-hidden rounded-full bg-white/20 shrink-0">
                       <Image
-                        src="https://6vvt7k9n.twic.pics/prismic/aG_WhkMqNJQqHwrK_Testimonial-2-.png?twic=v1/cover=80x80"
+                        src="/images/ceo/ceo-portrait.webp"
                         alt=""
                         fill
                         className="object-cover"

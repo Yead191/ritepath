@@ -24,7 +24,7 @@ export const LandingCEO = () => {
           {/* Portrait */}
           <Reveal direction="left" className="lg:col-span-5">
             <div className="relative mx-auto w-full max-w-md lg:max-w-none">
-              <div className="absolute -inset-3 sm:-inset-4 rounded-[2rem] bg-gradient-to-br from-[#1AABE2]/15 via-transparent to-[#FBE1E8]/80 blur-2xl" />
+              <div className="absolute -inset-3 sm:-inset-4 rounded-[2rem] bg-gradient-to-br from-[#1AABE2]/18 via-transparent to-[#FFF1E1]/90 blur-2xl" />
               <div className="relative aspect-[3/4] overflow-hidden rounded-[1.75rem] sm:rounded-[2rem] shadow-[0_30px_80px_rgba(26,26,46,0.12)] ring-1 ring-black/5">
                 <Image
                   src="/images/ceo/ceo-portrait.webp"
