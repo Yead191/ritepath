@@ -1,49 +1,48 @@
 "use client";
 
-import { useTranslations } from "next-intl";
-import { ViewDemoButton } from "@/components/shared/ViewDemoButton";
-import { Reveal } from "@/components/shared/Reveal";
+import { ArrowRight, ShieldCheck } from "lucide-react";
 
 interface LandingCTAProps {
-  onViewDemo: () => void;
+  onViewDemo?: () => void;
 }
 
 export const LandingCTA = ({ onViewDemo }: LandingCTAProps) => {
-  const t = useTranslations("landing.cta");
-
   return (
     <section className="relative bg-white py-16 sm:py-20 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <Reveal>
-          <div className="relative overflow-hidden rounded-[2rem] bg-[#000D25] px-8 py-12 sm:px-14 sm:py-14 lg:px-16 lg:py-16 text-center">
-            <div
-              className="pointer-events-none absolute inset-0"
-              style={{
-                background:
-                  "radial-gradient(ellipse 60% 70% at 80% 20%, rgba(26,171,226,0.28) 0%, transparent 55%), radial-gradient(ellipse 50% 50% at 10% 90%, rgba(26,171,226,0.12) 0%, transparent 50%)",
-              }}
-              aria-hidden="true"
-            />
+        <div className="relative isolate overflow-hidden rounded-3xl bg-[#1AABE2] px-8 py-12 text-center shadow-2xl sm:px-14 sm:py-16 lg:px-16 lg:py-20">
+          {/* Ambient Glowing Orbs */}
+          <div className="absolute right-0 top-0 -z-10 h-80 w-80 rounded-full bg-white/15 blur-3xl pointer-events-none" aria-hidden="true" />
+          <div className="absolute bottom-0 left-0 -z-10 h-80 w-96 rounded-full bg-[#000D25]/20 blur-3xl pointer-events-none" aria-hidden="true" />
 
-            <div className="relative">
-              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight leading-tight max-w-2xl mx-auto">
-                {t("title")}
-              </h2>
-              <p className="mt-4 text-base sm:text-lg text-white/80 max-w-xl mx-auto leading-relaxed">
-                {t("body")}
-              </p>
+          {/* Headline */}
+          <h2 className="mb-6 text-3xl font-extrabold text-white sm:text-4xl lg:text-5xl tracking-tight">
+            Ready to Transform Your Workflow?
+          </h2>
 
-              <div className="mt-8 flex flex-wrap justify-center gap-4">
-                <ViewDemoButton
-                  className="!px-8 !py-3.5 rounded-full bg-[#1AABE2] hover:bg-[#1596c7] border-0 shadow-sm"
-                  onClick={onViewDemo}
-                />
-              </div>
+          <p className="mx-auto max-w-2xl text-base sm:text-lg text-white/90 mb-8 font-normal leading-relaxed">
+            Join hundreds of funeral directors who trust RitePath to keep cases, compliance, signatures, and family care connected in one platform.
+          </p>
 
-              <p className="mt-5 text-sm text-white/65">{t("note")}</p>
-            </div>
+          {/* Button Group */}
+          <div className="flex flex-wrap justify-center gap-4">
+            <button
+              type="button"
+              onClick={onViewDemo}
+              className="inline-flex items-center justify-center gap-2.5 text-base font-bold text-white bg-[#000D25] hover:bg-[#000D25]/90 hover:shadow-2xl transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-[#000D25] focus:ring-offset-2 rounded-full border border-white/20 px-9 py-4 hover:scale-105 shadow-xl"
+              aria-label="Start 14 day free trial"
+            >
+              <span>Start Free Trial</span>
+              <ArrowRight className="w-5 h-5" />
+            </button>
           </div>
-        </Reveal>
+
+          {/* Subtext */}
+          <div className="mt-6 flex items-center justify-center gap-2 text-xs sm:text-sm font-medium text-white/90">
+            <ShieldCheck className="h-4 w-4 text-white" />
+            <span>Secure login • Professional funeral home management • 14-day free trial</span>
+          </div>
+        </div>
       </div>
     </section>
   );

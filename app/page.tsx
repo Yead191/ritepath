@@ -1,50 +1,58 @@
 "use client";
 
-import { LandingFooter } from "@/sections/LandingFooter";
 import { LandingHeader } from "@/sections/LandingHeader";
 import { LandingHero } from "@/sections/LandingHero";
-import { LandingTrial } from "@/sections/LandingTrial";
-import { LandingSolutions } from "@/sections/LandingSolutions";
-import { LandingProof } from "@/sections/LandingProof";
-// import { LandingInsights } from "@/sections/LandingInsights";
-// import { LandingImpact } from "@/sections/LandingImpact";
-// import { LandingScrollStack } from "@/sections/LandingScrollStack";
-import { LandingAppShowcase } from "@/sections/LandingAppShowcase";
-import { LandingCompare } from "@/sections/LandingCompare";
 import { LandingCEO } from "@/sections/LandingCEO";
+import { LandingVision } from "@/sections/LandingVision";
+import { LandingVideo } from "@/sections/LandingVideo";
+import { LandingOneCase } from "@/sections/LandingOneCase";
+import { LandingSolutions } from "@/sections/LandingSolutions";
+import { LandingBenefits } from "@/sections/LandingBenefits";
+import { LandingCalculator } from "@/sections/LandingCalculator";
 import { LandingCTA } from "@/sections/LandingCTA";
+import { LandingFooter } from "@/sections/LandingFooter";
 
 export default function HomePage() {
+  const handleScrollToCalculator = () => {
+    const el = document.getElementById("calculator");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <main>
-      <LandingHeader />
-      <LandingHero onViewDemo={() => {}} />
+    <main className="min-h-screen bg-white selection:bg-[#1aabe2] selection:text-white">
+      {/* Sticky Header */}
+      <LandingHeader onBookDemo={handleScrollToCalculator} />
 
-      <LandingTrial onViewDemo={() => {}} />
+      {/* 1. Hero Section with Typing Animation, Free Trial CTA & Trust Badges */}
+      <LandingHero onViewDemo={handleScrollToCalculator} />
 
+      {/* 2. Message from CEO Michelle Munoz */}
+      <LandingCEO />
+
+      {/* 3. Purpose & Vision Statement */}
+      <LandingVision />
+
+      {/* 4. Customer Testimonial Video Section */}
+      <LandingVideo />
+
+      {/* 5. Dark Navy #000D25 Banner: 1 Case Shouldn't Require 5 Tools */}
+      <LandingOneCase />
+
+      {/* 6. Core Workflows: RitePath, Better in Every Way */}
       <LandingSolutions />
 
-      <LandingProof />
-      {/* <LandingInsights /> */}
-      {/* <LandingImpact /> */}
+      {/* 7. Built for Compassionate Care 4-Pillars Grid */}
+      <LandingBenefits />
 
-      <LandingAppShowcase />
-      {/* <LandingScrollStack /> */}
+      {/* 8. Interactive ROI Time Savings Calculator */}
+      <LandingCalculator />
 
-      <LandingCompare />
-      <LandingCEO />
-      {/* <Reveal>
-        <LandingFeatures />
-      </Reveal>
-      <Reveal>
-        <LandingBenefits />
-      </Reveal>
-      <Reveal>
-        <LandingSteps />
-      </Reveal> */}
+      {/* 9. Cyan CTA Section */}
+      <LandingCTA onViewDemo={handleScrollToCalculator} />
 
-      <LandingCTA onViewDemo={() => {}} />
-
+      {/* 10. Footer */}
       <LandingFooter />
     </main>
   );
