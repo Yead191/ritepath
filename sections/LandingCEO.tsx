@@ -1,125 +1,83 @@
 "use client";
 
 import Image from "next/image";
-import { ArrowUpRight } from "lucide-react";
-import { useTranslations } from "next-intl";
-import { Reveal } from "@/components/shared/Reveal";
+import { Quote } from "lucide-react";
 
 export const LandingCEO = () => {
-  const t = useTranslations("landing.ceo");
-
   return (
-    <section className="relative overflow-hidden bg-[#FFF8F1] py-16 sm:py-20 lg:py-28">
-      {/* Soft atmospheric wash */}
-      <div
-        className="pointer-events-none absolute inset-0"
-        style={{
-          background:
-            "radial-gradient(ellipse 70% 60% at 85% 40%, rgba(26,171,226,0.10) 0%, transparent 55%), radial-gradient(ellipse 50% 50% at 10% 80%, rgba(255,241,225,0.9) 0%, transparent 60%)",
-        }}
-      />
+    <section aria-labelledby="ceo-message-title" className="relative isolate overflow-hidden bg-white px-4 py-16 sm:px-6 sm:py-20 lg:px-8 lg:py-24 border-t border-slate-100">
+      {/* Decorative ambient background accents */}
+      <div className="pointer-events-none absolute -left-24 top-8 h-64 w-64 rounded-full bg-[#1aabe2]/10 blur-3xl" aria-hidden="true" />
+      <div className="pointer-events-none absolute -bottom-32 right-0 h-64 w-96 rounded-full bg-sky-50 blur-2xl" aria-hidden="true" />
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
-          {/* Portrait */}
-          <Reveal direction="left" className="lg:col-span-5">
-            <div className="relative mx-auto w-full max-w-md lg:max-w-none">
-              <div className="absolute -inset-3 sm:-inset-4 rounded-[2rem] bg-gradient-to-br from-[#1AABE2]/18 via-transparent to-[#FFF1E1]/90 blur-2xl" />
-              <div className="relative aspect-[3/4] overflow-hidden rounded-[1.75rem] sm:rounded-[2rem] shadow-[0_30px_80px_rgba(26,26,46,0.12)] ring-1 ring-black/5">
-                <Image
-                  src="/images/ceo/ceo-portrait.webp"
-                  alt={t("imageAlt")}
-                  fill
-                  sizes="(max-width: 1024px) 90vw, 40vw"
-                  className="object-cover object-top"
-                  priority={false}
-                />
-                <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[#1a1a2e]/50 to-transparent" />
-                <div className="absolute bottom-5 left-5 right-5 sm:bottom-6 sm:left-6">
-                  <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/80">
-                    {t("eyebrow")}
-                  </p>
-                  <p className="mt-1 text-xl sm:text-2xl font-bold text-white tracking-tight">
-                    {t("name")}
-                  </p>
-                  <p className="text-sm text-white/85">{t("role")}</p>
-                </div>
-              </div>
+      <div className="relative mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-12 lg:gap-16">
+        {/* CEO Image Container */}
+        <div className="lg:col-span-5 relative mx-auto w-full max-w-md lg:max-w-none">
+          <div className="relative aspect-[4/5] sm:aspect-[4/4] lg:aspect-[4/5] overflow-hidden rounded-3xl bg-slate-100 shadow-[0_20px_50px_rgba(0,13,37,0.12)] border border-slate-200/80 group">
+            <Image
+              src="/images/ceo/ceo-portrait.webp"
+              alt="Michelle Munoz, CEO and co-founder of RitePath"
+              fill
+              className="object-cover object-center transition-transform duration-700 group-hover:scale-105"
+              sizes="(min-width: 1024px) 40vw, 90vw"
+            />
+            {/* Overlay Gradient */}
+            <div className="absolute inset-0 bg-gradient-to-t from-[#000D25]/75 via-transparent to-transparent opacity-80" />
+
+            {/* Floating Badge */}
+            <div className="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-white/90 backdrop-blur-md border border-white/60 shadow-lg text-slate-900">
+              <p className="text-base font-bold">Michelle Munoz</p>
+              <p className="text-xs text-[#1aabe2] font-medium">CEO & Co-founder • 10+ Years Industry Experience</p>
             </div>
-          </Reveal>
-
-          {/* Copy */}
-          <div className="lg:col-span-7">
-            <Reveal direction="right">
-              <p className="text-xs font-bold uppercase tracking-[0.22em] text-[#1AABE2]">
-                {t("label")}
-              </p>
-              <h2 className="mt-4 text-3xl sm:text-4xl lg:text-[2.85rem] font-bold text-[#1a1a2e] tracking-tight leading-[1.12] max-w-xl">
-                {t("title")}
-              </h2>
-
-              <blockquote className="mt-8 relative">
-                <span
-                  className="absolute -left-1 -top-6 text-7xl font-serif leading-none text-[#1AABE2]/25 select-none"
-                  aria-hidden="true"
-                >
-                  “
-                </span>
-                <p className="relative text-xl sm:text-2xl font-medium text-[#1a1a2e] leading-relaxed tracking-tight">
-                  {t("quote")}
-                </p>
-              </blockquote>
-
-              <div className="mt-8 space-y-4 max-w-xl">
-                <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-                  {t("bio1")}
-                </p>
-                <p className="text-base sm:text-lg text-slate-600 leading-relaxed">
-                  {t("bio2")}
-                </p>
-              </div>
-
-              <div className="mt-10 flex flex-wrap items-center gap-4">
-                <a
-                  href="#partnership"
-                  className="inline-flex items-center gap-2 rounded-full bg-[#1AABE2] px-6 py-3.5 text-sm font-semibold text-white shadow-sm transition-all hover:bg-[#1596c7] hover:-translate-y-0.5"
-                >
-                  {t("cta")}
-                  <ArrowUpRight className="h-4 w-4" aria-hidden="true" />
-                </a>
-                <p className="text-sm text-slate-500 max-w-xs leading-snug">
-                  {t("ctaNote")}
-                </p>
-              </div>
-
-              {/* Signature strip */}
-              <div className="mt-12 pt-8 border-t border-[#1a1a2e]/10 flex flex-wrap items-end justify-between gap-4">
-                <div>
-                  <p className="text-2xl italic font-medium text-[#1a1a2e] tracking-tight">
-                    {t("signature")}
-                  </p>
-                  <p className="mt-1 text-sm text-slate-500">
-                    {t("name")} · {t("role")}
-                  </p>
-                </div>
-                <div className="flex gap-6 text-sm">
-                  <div>
-                    <p className="text-2xl font-bold text-[#1a1a2e] tracking-tight">
-                      {t("stat1.value")}
-                    </p>
-                    <p className="text-slate-500">{t("stat1.label")}</p>
-                  </div>
-                  <div>
-                    <p className="text-2xl font-bold text-[#1a1a2e] tracking-tight">
-                      {t("stat2.value")}
-                    </p>
-                    <p className="text-slate-500">{t("stat2.label")}</p>
-                  </div>
-                </div>
-              </div>
-            </Reveal>
           </div>
         </div>
+
+        {/* CEO Message Content */}
+        <article className="lg:col-span-7 mx-auto w-full max-w-2xl lg:mx-0">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-50 border border-sky-200 text-[#1aabe2] text-xs font-semibold uppercase tracking-wider mb-4">
+            <Quote className="h-3.5 w-3.5 text-[#1aabe2]" />
+            <span>Leadership Perspective</span>
+          </div>
+
+          <h2 id="ceo-message-title" className="text-3xl font-bold tracking-tight text-[#000d25] sm:text-4xl lg:text-5xl">
+            A message from <span className="text-[#1aabe2]">our CEO</span>
+          </h2>
+
+          <div className="my-6 h-1 w-20 rounded-full bg-[#1aabe2]" aria-hidden="true" />
+
+          {/* Core Quote Statements */}
+          <div className="space-y-5 text-base leading-relaxed text-slate-700 sm:text-lg sm:leading-8 font-normal">
+            <p className="text-xl sm:text-2xl font-semibold text-[#000d25] leading-snug border-l-4 border-[#1aabe2] pl-4 italic">
+              “Your funeral software should do more than just store a case.”
+            </p>
+            
+            <p>
+              After more than a decade in the funeral industry, we saw funeral homes being asked to do more with fewer people.
+            </p>
+            
+            <p>
+              Labor shortages, repetitive paperwork, and disconnected systems were placing more pressure on already stretched teams. 
+              At the same time, unclear communication between the next of kin, informant, and staff often created confusion, 
+              frustration, and negative reviews.
+            </p>
+            
+            <p className="font-semibold text-slate-900">
+              That is why we built RitePath — the funeral management system that works alongside you.
+            </p>
+          </div>
+
+          {/* CEO Signature Block */}
+          <footer className="mt-8 pt-6 border-t border-slate-100 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+            <div>
+              <p className="font-serif italic text-3xl sm:text-4xl tracking-wide text-[#000d25]">
+                Michelle Munoz
+              </p>
+              <p className="mt-1 text-sm font-medium text-slate-600">
+                CEO &amp; Co-founder at <strong className="font-semibold text-[#1aabe2]">RitePath</strong>
+              </p>
+            </div>
+          </footer>
+        </article>
       </div>
     </section>
   );
