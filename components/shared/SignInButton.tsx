@@ -6,18 +6,19 @@ import { ROUTES } from '@/constants/app';
 
 interface SignInButtonProps {
   className?: string;
+  children?: React.ReactNode;
 }
 
-export const SignInButton = ({ className }: SignInButtonProps) => {
+export const SignInButton = ({ className, children }: SignInButtonProps) => {
   return (
     <Link
       href={ROUTES.SIGN_IN}
       className={cn(
-        'inline-flex items-center justify-center !px-6 !py-2.5 text-sm font-medium text-slate-700 !bg-white !border !border-slate-200 rounded-full hover:!bg-slate-50 transition-all',
+        'inline-flex items-center justify-center px-5 py-2.5 text-sm font-semibold text-white bg-[#1aabe2] hover:bg-[#1596c7] rounded-lg transition-all shadow-sm hover:shadow-md border border-[#1aabe2]',
         className
       )}
     >
-      Sign In
+      {children || 'Partner Portal'}
     </Link>
   );
 };
